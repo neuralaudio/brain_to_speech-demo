@@ -1,0 +1,818 @@
+{
+ "setup": {
+  "order": 2,
+  "alpha": 0.0,
+  "beta": 0.5,
+  "members": 10,
+  "prior": "cohort trigram"
+ },
+ "available_ks": [
+  10,
+  20,
+  50
+ ],
+ "subjects": {
+  "P01": {
+   "tier": "Medium",
+   "template": 0.10352422907488987,
+   "dk": {
+    "10": {
+     "single": 0.1275330396475771,
+     "ensemble": 0.13215859030837002,
+     "top": 0.14757709251101322
+    },
+    "20": {
+     "single": 0.10485829959514172,
+     "ensemble": 0.09514170040485832,
+     "top": 0.11133603238866398
+    },
+    "50": {
+     "single": 0.044701348747591525,
+     "ensemble": 0.038535645472061654,
+     "top": 0.04816955684007707
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P01_ses1_t0004",
+     "word": "zevenduizend",
+     "files": {
+      "original": "audio/P01/P01_ses1_t0004_original.wav",
+      "continuous": "audio/P01/P01_ses1_t0004_continuous.wav",
+      "quantized_k10": "audio/P01/P01_ses1_t0004_quantized_k10.wav",
+      "decoded_k10": "audio/P01/P01_ses1_t0004_decoded_k10.wav",
+      "quantized_k20": "audio/P01/P01_ses1_t0004_quantized_k20.wav",
+      "decoded_k20": "audio/P01/P01_ses1_t0004_decoded_k20.wav",
+      "quantized_k50": "audio/P01/P01_ses1_t0004_quantized_k50.wav",
+      "decoded_k50": "audio/P01/P01_ses1_t0004_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7037037037037037,
+      "20": 0.42592592592592593,
+      "50": 0.3148148148148148
+     }
+    },
+    {
+     "trial_id": "P01_ses1_t0040",
+     "word": "bak",
+     "files": {
+      "original": "audio/P01/P01_ses1_t0040_original.wav",
+      "continuous": "audio/P01/P01_ses1_t0040_continuous.wav",
+      "quantized_k10": "audio/P01/P01_ses1_t0040_quantized_k10.wav",
+      "decoded_k10": "audio/P01/P01_ses1_t0040_decoded_k10.wav",
+      "quantized_k20": "audio/P01/P01_ses1_t0040_quantized_k20.wav",
+      "decoded_k20": "audio/P01/P01_ses1_t0040_decoded_k20.wav",
+      "quantized_k50": "audio/P01/P01_ses1_t0040_quantized_k50.wav",
+      "decoded_k50": "audio/P01/P01_ses1_t0040_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5666666666666667,
+      "20": 0.43333333333333335,
+      "50": 0.13333333333333333
+     }
+    },
+    {
+     "trial_id": "P01_ses1_t0074",
+     "word": "om",
+     "files": {
+      "original": "audio/P01/P01_ses1_t0074_original.wav",
+      "continuous": "audio/P01/P01_ses1_t0074_continuous.wav",
+      "quantized_k10": "audio/P01/P01_ses1_t0074_quantized_k10.wav",
+      "decoded_k10": "audio/P01/P01_ses1_t0074_decoded_k10.wav",
+      "quantized_k20": "audio/P01/P01_ses1_t0074_quantized_k20.wav",
+      "decoded_k20": "audio/P01/P01_ses1_t0074_decoded_k20.wav",
+      "quantized_k50": "audio/P01/P01_ses1_t0074_quantized_k50.wav",
+      "decoded_k50": "audio/P01/P01_ses1_t0074_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5517241379310345,
+      "20": 0.1724137931034483,
+      "50": 0.3793103448275862
+     }
+    }
+   ]
+  },
+  "P02": {
+   "tier": "Medium",
+   "template": 0.011135857461024537,
+   "dk": {
+    "10": {
+     "single": 0.06859688195991089,
+     "ensemble": 0.12472160356347435,
+     "top": 0.21158129175946544
+    },
+    "20": {
+     "single": 0.08461538461538462,
+     "ensemble": 0.13609467455621302,
+     "top": 0.1518737672583826
+    },
+    "50": {
+     "single": 0.037275985663082434,
+     "ensemble": 0.059139784946236555,
+     "top": 0.06451612903225806
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P02_ses1_t0015",
+     "word": "schold",
+     "files": {
+      "original": "audio/P02/P02_ses1_t0015_original.wav",
+      "continuous": "audio/P02/P02_ses1_t0015_continuous.wav",
+      "quantized_k10": "audio/P02/P02_ses1_t0015_quantized_k10.wav",
+      "decoded_k10": "audio/P02/P02_ses1_t0015_decoded_k10.wav",
+      "quantized_k20": "audio/P02/P02_ses1_t0015_quantized_k20.wav",
+      "decoded_k20": "audio/P02/P02_ses1_t0015_decoded_k20.wav",
+      "quantized_k50": "audio/P02/P02_ses1_t0015_quantized_k50.wav",
+      "decoded_k50": "audio/P02/P02_ses1_t0015_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7567567567567568,
+      "20": 0.43243243243243246,
+      "50": 0.08108108108108109
+     }
+    },
+    {
+     "trial_id": "P02_ses1_t0049",
+     "word": "naar",
+     "files": {
+      "original": "audio/P02/P02_ses1_t0049_original.wav",
+      "continuous": "audio/P02/P02_ses1_t0049_continuous.wav",
+      "quantized_k10": "audio/P02/P02_ses1_t0049_quantized_k10.wav",
+      "decoded_k10": "audio/P02/P02_ses1_t0049_decoded_k10.wav",
+      "quantized_k20": "audio/P02/P02_ses1_t0049_quantized_k20.wav",
+      "decoded_k20": "audio/P02/P02_ses1_t0049_decoded_k20.wav",
+      "quantized_k50": "audio/P02/P02_ses1_t0049_quantized_k50.wav",
+      "decoded_k50": "audio/P02/P02_ses1_t0049_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.6578947368421053,
+      "20": 0.42105263157894735,
+      "50": 0.18421052631578946
+     }
+    },
+    {
+     "trial_id": "P02_ses1_t0029",
+     "word": "zonlicht",
+     "files": {
+      "original": "audio/P02/P02_ses1_t0029_original.wav",
+      "continuous": "audio/P02/P02_ses1_t0029_continuous.wav",
+      "quantized_k10": "audio/P02/P02_ses1_t0029_quantized_k10.wav",
+      "decoded_k10": "audio/P02/P02_ses1_t0029_decoded_k10.wav",
+      "quantized_k20": "audio/P02/P02_ses1_t0029_quantized_k20.wav",
+      "decoded_k20": "audio/P02/P02_ses1_t0029_decoded_k20.wav",
+      "quantized_k50": "audio/P02/P02_ses1_t0029_quantized_k50.wav",
+      "decoded_k50": "audio/P02/P02_ses1_t0029_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.58,
+      "20": 0.34,
+      "50": 0.1
+     }
+    }
+   ]
+  },
+  "P03": {
+   "tier": "High",
+   "template": -0.12474849094567407,
+   "dk": {
+    "10": {
+     "single": 0.5523138832997988,
+     "ensemble": 0.579476861167002,
+     "top": 0.5774647887323945
+    },
+    "20": {
+     "single": 0.4099303135888502,
+     "ensemble": 0.4216027874564461,
+     "top": 0.4216027874564461
+    },
+    "50": {
+     "single": 0.2818635607321131,
+     "ensemble": 0.31114808652246256,
+     "top": 0.30782029950083195
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P03_ses1_t0014",
+     "word": "totdat",
+     "files": {
+      "original": "audio/P03/P03_ses1_t0014_original.wav",
+      "continuous": "audio/P03/P03_ses1_t0014_continuous.wav",
+      "quantized_k10": "audio/P03/P03_ses1_t0014_quantized_k10.wav",
+      "decoded_k10": "audio/P03/P03_ses1_t0014_decoded_k10.wav",
+      "quantized_k20": "audio/P03/P03_ses1_t0014_quantized_k20.wav",
+      "decoded_k20": "audio/P03/P03_ses1_t0014_decoded_k20.wav",
+      "quantized_k50": "audio/P03/P03_ses1_t0014_quantized_k50.wav",
+      "decoded_k50": "audio/P03/P03_ses1_t0014_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.8571428571428571,
+      "20": 0.6571428571428571,
+      "50": 0.4
+     }
+    },
+    {
+     "trial_id": "P03_ses1_t0076",
+     "word": "had",
+     "files": {
+      "original": "audio/P03/P03_ses1_t0076_original.wav",
+      "continuous": "audio/P03/P03_ses1_t0076_continuous.wav",
+      "quantized_k10": "audio/P03/P03_ses1_t0076_quantized_k10.wav",
+      "decoded_k10": "audio/P03/P03_ses1_t0076_decoded_k10.wav",
+      "quantized_k20": "audio/P03/P03_ses1_t0076_quantized_k20.wav",
+      "decoded_k20": "audio/P03/P03_ses1_t0076_decoded_k20.wav",
+      "quantized_k50": "audio/P03/P03_ses1_t0076_quantized_k50.wav",
+      "decoded_k50": "audio/P03/P03_ses1_t0076_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.8125,
+      "20": 0.65625,
+      "50": 0.5625
+     }
+    },
+    {
+     "trial_id": "P03_ses1_t0087",
+     "word": "maantje",
+     "files": {
+      "original": "audio/P03/P03_ses1_t0087_original.wav",
+      "continuous": "audio/P03/P03_ses1_t0087_continuous.wav",
+      "quantized_k10": "audio/P03/P03_ses1_t0087_quantized_k10.wav",
+      "decoded_k10": "audio/P03/P03_ses1_t0087_decoded_k10.wav",
+      "quantized_k20": "audio/P03/P03_ses1_t0087_quantized_k20.wav",
+      "decoded_k20": "audio/P03/P03_ses1_t0087_decoded_k20.wav",
+      "quantized_k50": "audio/P03/P03_ses1_t0087_quantized_k50.wav",
+      "decoded_k50": "audio/P03/P03_ses1_t0087_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.8076923076923077,
+      "20": 0.6923076923076923,
+      "50": 0.5192307692307693
+     }
+    }
+   ]
+  },
+  "P04": {
+   "tier": "Medium",
+   "template": 0.029787234042553196,
+   "dk": {
+    "10": {
+     "single": 0.25978723404255327,
+     "ensemble": 0.2680851063829788,
+     "top": 0.2702127659574468
+    },
+    "20": {
+     "single": 0.14274809160305346,
+     "ensemble": 0.14503816793893132,
+     "top": 0.13931297709923665
+    },
+    "50": {
+     "single": 0.0774869109947644,
+     "ensemble": 0.08027923211169284,
+     "top": 0.09773123909249563
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P04_ses1_t0070",
+     "word": "met",
+     "files": {
+      "original": "audio/P04/P04_ses1_t0070_original.wav",
+      "continuous": "audio/P04/P04_ses1_t0070_continuous.wav",
+      "quantized_k10": "audio/P04/P04_ses1_t0070_quantized_k10.wav",
+      "decoded_k10": "audio/P04/P04_ses1_t0070_decoded_k10.wav",
+      "quantized_k20": "audio/P04/P04_ses1_t0070_quantized_k20.wav",
+      "decoded_k20": "audio/P04/P04_ses1_t0070_decoded_k20.wav",
+      "quantized_k50": "audio/P04/P04_ses1_t0070_quantized_k50.wav",
+      "decoded_k50": "audio/P04/P04_ses1_t0070_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.8666666666666667,
+      "20": 0.5333333333333333,
+      "50": 0.4
+     }
+    },
+    {
+     "trial_id": "P04_ses1_t0019",
+     "word": "bloedrode",
+     "files": {
+      "original": "audio/P04/P04_ses1_t0019_original.wav",
+      "continuous": "audio/P04/P04_ses1_t0019_continuous.wav",
+      "quantized_k10": "audio/P04/P04_ses1_t0019_quantized_k10.wav",
+      "decoded_k10": "audio/P04/P04_ses1_t0019_decoded_k10.wav",
+      "quantized_k20": "audio/P04/P04_ses1_t0019_quantized_k20.wav",
+      "decoded_k20": "audio/P04/P04_ses1_t0019_decoded_k20.wav",
+      "quantized_k50": "audio/P04/P04_ses1_t0019_quantized_k50.wav",
+      "decoded_k50": "audio/P04/P04_ses1_t0019_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.71875,
+      "20": 0.5,
+      "50": 0.09375
+     }
+    },
+    {
+     "trial_id": "P04_ses1_t0067",
+     "word": "gefluit",
+     "files": {
+      "original": "audio/P04/P04_ses1_t0067_original.wav",
+      "continuous": "audio/P04/P04_ses1_t0067_continuous.wav",
+      "quantized_k10": "audio/P04/P04_ses1_t0067_quantized_k10.wav",
+      "decoded_k10": "audio/P04/P04_ses1_t0067_decoded_k10.wav",
+      "quantized_k20": "audio/P04/P04_ses1_t0067_quantized_k20.wav",
+      "decoded_k20": "audio/P04/P04_ses1_t0067_decoded_k20.wav",
+      "quantized_k50": "audio/P04/P04_ses1_t0067_quantized_k50.wav",
+      "decoded_k50": "audio/P04/P04_ses1_t0067_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5957446808510638,
+      "20": 0.40425531914893614,
+      "50": 0.2553191489361702
+     }
+    }
+   ]
+  },
+  "P05": {
+   "tier": "Low",
+   "template": -0.04828973843058347,
+   "dk": {
+    "10": {
+     "single": 0.047283702213279655,
+     "ensemble": 0.05231388329979882,
+     "top": 0.07847082494969822
+    },
+    "20": {
+     "single": 0.04897610921501706,
+     "ensemble": 0.07167235494880546,
+     "top": 0.06484641638225255
+    },
+    "50": {
+     "single": 0.022884012539184952,
+     "ensemble": 0.02351097178683385,
+     "top": 0.032915360501567396
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P05_ses1_t0005",
+     "word": "wat",
+     "files": {
+      "original": "audio/P05/P05_ses1_t0005_original.wav",
+      "continuous": "audio/P05/P05_ses1_t0005_continuous.wav",
+      "quantized_k10": "audio/P05/P05_ses1_t0005_quantized_k10.wav",
+      "decoded_k10": "audio/P05/P05_ses1_t0005_decoded_k10.wav",
+      "quantized_k20": "audio/P05/P05_ses1_t0005_quantized_k20.wav",
+      "decoded_k20": "audio/P05/P05_ses1_t0005_decoded_k20.wav",
+      "quantized_k50": "audio/P05/P05_ses1_t0005_quantized_k50.wav",
+      "decoded_k50": "audio/P05/P05_ses1_t0005_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.6285714285714286,
+      "20": 0.22857142857142856,
+      "50": 0.22857142857142856
+     }
+    },
+    {
+     "trial_id": "P05_ses1_t0031",
+     "word": "helemaal",
+     "files": {
+      "original": "audio/P05/P05_ses1_t0031_original.wav",
+      "continuous": "audio/P05/P05_ses1_t0031_continuous.wav",
+      "quantized_k10": "audio/P05/P05_ses1_t0031_quantized_k10.wav",
+      "decoded_k10": "audio/P05/P05_ses1_t0031_decoded_k10.wav",
+      "quantized_k20": "audio/P05/P05_ses1_t0031_quantized_k20.wav",
+      "decoded_k20": "audio/P05/P05_ses1_t0031_decoded_k20.wav",
+      "quantized_k50": "audio/P05/P05_ses1_t0031_quantized_k50.wav",
+      "decoded_k50": "audio/P05/P05_ses1_t0031_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5538461538461539,
+      "20": 0.26153846153846155,
+      "50": 0.0
+     }
+    },
+    {
+     "trial_id": "P05_ses1_t0071",
+     "word": "tuwiet",
+     "files": {
+      "original": "audio/P05/P05_ses1_t0071_original.wav",
+      "continuous": "audio/P05/P05_ses1_t0071_continuous.wav",
+      "quantized_k10": "audio/P05/P05_ses1_t0071_quantized_k10.wav",
+      "decoded_k10": "audio/P05/P05_ses1_t0071_decoded_k10.wav",
+      "quantized_k20": "audio/P05/P05_ses1_t0071_quantized_k20.wav",
+      "decoded_k20": "audio/P05/P05_ses1_t0071_decoded_k20.wav",
+      "quantized_k50": "audio/P05/P05_ses1_t0071_quantized_k50.wav",
+      "decoded_k50": "audio/P05/P05_ses1_t0071_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5,
+      "20": 0.39285714285714285,
+      "50": 0.21428571428571427
+     }
+    }
+   ]
+  },
+  "P06": {
+   "tier": "High",
+   "template": 0.07990314769975787,
+   "dk": {
+    "10": {
+     "single": 0.3801452784503632,
+     "ensemble": 0.40435835351089594,
+     "top": 0.39709443099273606
+    },
+    "20": {
+     "single": 0.22210526315789475,
+     "ensemble": 0.22947368421052633,
+     "top": 0.2505263157894737
+    },
+    "50": {
+     "single": 0.16437246963562754,
+     "ensemble": 0.18623481781376522,
+     "top": 0.19230769230769235
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P06_ses1_t0049",
+     "word": "schold",
+     "files": {
+      "original": "audio/P06/P06_ses1_t0049_original.wav",
+      "continuous": "audio/P06/P06_ses1_t0049_continuous.wav",
+      "quantized_k10": "audio/P06/P06_ses1_t0049_quantized_k10.wav",
+      "decoded_k10": "audio/P06/P06_ses1_t0049_decoded_k10.wav",
+      "quantized_k20": "audio/P06/P06_ses1_t0049_quantized_k20.wav",
+      "decoded_k20": "audio/P06/P06_ses1_t0049_decoded_k20.wav",
+      "quantized_k50": "audio/P06/P06_ses1_t0049_quantized_k50.wav",
+      "decoded_k50": "audio/P06/P06_ses1_t0049_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.84375,
+      "20": 0.625,
+      "50": 0.4375
+     }
+    },
+    {
+     "trial_id": "P06_ses1_t0066",
+     "word": "vlakbij",
+     "files": {
+      "original": "audio/P06/P06_ses1_t0066_original.wav",
+      "continuous": "audio/P06/P06_ses1_t0066_continuous.wav",
+      "quantized_k10": "audio/P06/P06_ses1_t0066_quantized_k10.wav",
+      "decoded_k10": "audio/P06/P06_ses1_t0066_decoded_k10.wav",
+      "quantized_k20": "audio/P06/P06_ses1_t0066_quantized_k20.wav",
+      "decoded_k20": "audio/P06/P06_ses1_t0066_decoded_k20.wav",
+      "quantized_k50": "audio/P06/P06_ses1_t0066_quantized_k50.wav",
+      "decoded_k50": "audio/P06/P06_ses1_t0066_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7636363636363637,
+      "20": 0.38181818181818183,
+      "50": 0.2
+     }
+    },
+    {
+     "trial_id": "P06_ses1_t0038",
+     "word": "daarna",
+     "files": {
+      "original": "audio/P06/P06_ses1_t0038_original.wav",
+      "continuous": "audio/P06/P06_ses1_t0038_continuous.wav",
+      "quantized_k10": "audio/P06/P06_ses1_t0038_quantized_k10.wav",
+      "decoded_k10": "audio/P06/P06_ses1_t0038_decoded_k10.wav",
+      "quantized_k20": "audio/P06/P06_ses1_t0038_quantized_k20.wav",
+      "decoded_k20": "audio/P06/P06_ses1_t0038_decoded_k20.wav",
+      "quantized_k50": "audio/P06/P06_ses1_t0038_quantized_k50.wav",
+      "decoded_k50": "audio/P06/P06_ses1_t0038_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7352941176470589,
+      "20": 0.5,
+      "50": 0.35294117647058826
+     }
+    }
+   ]
+  },
+  "P07": {
+   "tier": "High",
+   "template": 0.049707602339181284,
+   "dk": {
+    "10": {
+     "single": 0.40000000000000013,
+     "ensemble": 0.42397660818713456,
+     "top": 0.4415204678362573
+    },
+    "20": {
+     "single": 0.3142857142857143,
+     "ensemble": 0.3369272237196765,
+     "top": 0.3315363881401617
+    },
+    "50": {
+     "single": 0.2102827763496144,
+     "ensemble": 0.22622107969151675,
+     "top": 0.22879177377892035
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P07_ses1_t0029",
+     "word": "zei",
+     "files": {
+      "original": "audio/P07/P07_ses1_t0029_original.wav",
+      "continuous": "audio/P07/P07_ses1_t0029_continuous.wav",
+      "quantized_k10": "audio/P07/P07_ses1_t0029_quantized_k10.wav",
+      "decoded_k10": "audio/P07/P07_ses1_t0029_decoded_k10.wav",
+      "quantized_k20": "audio/P07/P07_ses1_t0029_quantized_k20.wav",
+      "decoded_k20": "audio/P07/P07_ses1_t0029_decoded_k20.wav",
+      "quantized_k50": "audio/P07/P07_ses1_t0029_quantized_k50.wav",
+      "decoded_k50": "audio/P07/P07_ses1_t0029_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.8214285714285714,
+      "20": 0.5357142857142857,
+      "50": 0.21428571428571427
+     }
+    },
+    {
+     "trial_id": "P07_ses1_t0017",
+     "word": "doodsbang",
+     "files": {
+      "original": "audio/P07/P07_ses1_t0017_original.wav",
+      "continuous": "audio/P07/P07_ses1_t0017_continuous.wav",
+      "quantized_k10": "audio/P07/P07_ses1_t0017_quantized_k10.wav",
+      "decoded_k10": "audio/P07/P07_ses1_t0017_decoded_k10.wav",
+      "quantized_k20": "audio/P07/P07_ses1_t0017_quantized_k20.wav",
+      "decoded_k20": "audio/P07/P07_ses1_t0017_decoded_k20.wav",
+      "quantized_k50": "audio/P07/P07_ses1_t0017_quantized_k50.wav",
+      "decoded_k50": "audio/P07/P07_ses1_t0017_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7878787878787878,
+      "20": 0.48484848484848486,
+      "50": 0.45454545454545453
+     }
+    },
+    {
+     "trial_id": "P07_ses1_t0066",
+     "word": "waren",
+     "files": {
+      "original": "audio/P07/P07_ses1_t0066_original.wav",
+      "continuous": "audio/P07/P07_ses1_t0066_continuous.wav",
+      "quantized_k10": "audio/P07/P07_ses1_t0066_quantized_k10.wav",
+      "decoded_k10": "audio/P07/P07_ses1_t0066_decoded_k10.wav",
+      "quantized_k20": "audio/P07/P07_ses1_t0066_quantized_k20.wav",
+      "decoded_k20": "audio/P07/P07_ses1_t0066_decoded_k20.wav",
+      "quantized_k50": "audio/P07/P07_ses1_t0066_quantized_k50.wav",
+      "decoded_k50": "audio/P07/P07_ses1_t0066_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7307692307692307,
+      "20": 0.46153846153846156,
+      "50": 0.19230769230769232
+     }
+    }
+   ]
+  },
+  "P08": {
+   "tier": "Low",
+   "template": 0.14253897550111358,
+   "dk": {
+    "10": {
+     "single": 0.025167037861915376,
+     "ensemble": 0.05790645879732739,
+     "top": 0.062360801781737224
+    },
+    "20": {
+     "single": -0.009937888198757766,
+     "ensemble": 0.004140786749482414,
+     "top": -0.008281573498964814
+    },
+    "50": {
+     "single": -0.012737642585551327,
+     "ensemble": -0.007604562737642581,
+     "top": -0.005703422053231946
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P08_ses1_t0036",
+     "word": "sterkste",
+     "files": {
+      "original": "audio/P08/P08_ses1_t0036_original.wav",
+      "continuous": "audio/P08/P08_ses1_t0036_continuous.wav",
+      "quantized_k10": "audio/P08/P08_ses1_t0036_quantized_k10.wav",
+      "decoded_k10": "audio/P08/P08_ses1_t0036_decoded_k10.wav",
+      "quantized_k20": "audio/P08/P08_ses1_t0036_quantized_k20.wav",
+      "decoded_k20": "audio/P08/P08_ses1_t0036_decoded_k20.wav",
+      "quantized_k50": "audio/P08/P08_ses1_t0036_quantized_k50.wav",
+      "decoded_k50": "audio/P08/P08_ses1_t0036_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.6222222222222222,
+      "20": 0.28888888888888886,
+      "50": 0.06666666666666667
+     }
+    },
+    {
+     "trial_id": "P08_ses1_t0008",
+     "word": "onmiddellijk",
+     "files": {
+      "original": "audio/P08/P08_ses1_t0008_original.wav",
+      "continuous": "audio/P08/P08_ses1_t0008_continuous.wav",
+      "quantized_k10": "audio/P08/P08_ses1_t0008_quantized_k10.wav",
+      "decoded_k10": "audio/P08/P08_ses1_t0008_decoded_k10.wav",
+      "quantized_k20": "audio/P08/P08_ses1_t0008_quantized_k20.wav",
+      "decoded_k20": "audio/P08/P08_ses1_t0008_decoded_k20.wav",
+      "quantized_k50": "audio/P08/P08_ses1_t0008_quantized_k50.wav",
+      "decoded_k50": "audio/P08/P08_ses1_t0008_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5952380952380952,
+      "20": 0.4523809523809524,
+      "50": 0.07142857142857142
+     }
+    },
+    {
+     "trial_id": "P08_ses1_t0009",
+     "word": "wak",
+     "files": {
+      "original": "audio/P08/P08_ses1_t0009_original.wav",
+      "continuous": "audio/P08/P08_ses1_t0009_continuous.wav",
+      "quantized_k10": "audio/P08/P08_ses1_t0009_quantized_k10.wav",
+      "decoded_k10": "audio/P08/P08_ses1_t0009_decoded_k10.wav",
+      "quantized_k20": "audio/P08/P08_ses1_t0009_quantized_k20.wav",
+      "decoded_k20": "audio/P08/P08_ses1_t0009_decoded_k20.wav",
+      "quantized_k50": "audio/P08/P08_ses1_t0009_quantized_k50.wav",
+      "decoded_k50": "audio/P08/P08_ses1_t0009_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5483870967741935,
+      "20": 0.2903225806451613,
+      "50": 0.0
+     }
+    }
+   ]
+  },
+  "P09": {
+   "tier": "Medium",
+   "template": 0.010695187165775402,
+   "dk": {
+    "10": {
+     "single": 0.12032085561497326,
+     "ensemble": 0.12032085561497328,
+     "top": 0.12032085561497328
+    },
+    "20": {
+     "single": 0.1622828784119107,
+     "ensemble": 0.18362282878411906,
+     "top": 0.17866004962779158
+    },
+    "50": {
+     "single": 0.03878504672897196,
+     "ensemble": 0.04672897196261683,
+     "top": 0.0794392523364486
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P09_ses1_t0075",
+     "word": "sterkste",
+     "files": {
+      "original": "audio/P09/P09_ses1_t0075_original.wav",
+      "continuous": "audio/P09/P09_ses1_t0075_continuous.wav",
+      "quantized_k10": "audio/P09/P09_ses1_t0075_quantized_k10.wav",
+      "decoded_k10": "audio/P09/P09_ses1_t0075_decoded_k10.wav",
+      "quantized_k20": "audio/P09/P09_ses1_t0075_quantized_k20.wav",
+      "decoded_k20": "audio/P09/P09_ses1_t0075_decoded_k20.wav",
+      "quantized_k50": "audio/P09/P09_ses1_t0075_quantized_k50.wav",
+      "decoded_k50": "audio/P09/P09_ses1_t0075_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7560975609756098,
+      "20": 0.5609756097560976,
+      "50": 0.4146341463414634
+     }
+    },
+    {
+     "trial_id": "P09_ses1_t0010",
+     "word": "aan",
+     "files": {
+      "original": "audio/P09/P09_ses1_t0010_original.wav",
+      "continuous": "audio/P09/P09_ses1_t0010_continuous.wav",
+      "quantized_k10": "audio/P09/P09_ses1_t0010_quantized_k10.wav",
+      "decoded_k10": "audio/P09/P09_ses1_t0010_decoded_k10.wav",
+      "quantized_k20": "audio/P09/P09_ses1_t0010_quantized_k20.wav",
+      "decoded_k20": "audio/P09/P09_ses1_t0010_decoded_k20.wav",
+      "quantized_k50": "audio/P09/P09_ses1_t0010_quantized_k50.wav",
+      "decoded_k50": "audio/P09/P09_ses1_t0010_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.7368421052631579,
+      "20": 0.47368421052631576,
+      "50": 0.10526315789473684
+     }
+    },
+    {
+     "trial_id": "P09_ses1_t0056",
+     "word": "tussen",
+     "files": {
+      "original": "audio/P09/P09_ses1_t0056_original.wav",
+      "continuous": "audio/P09/P09_ses1_t0056_continuous.wav",
+      "quantized_k10": "audio/P09/P09_ses1_t0056_quantized_k10.wav",
+      "decoded_k10": "audio/P09/P09_ses1_t0056_decoded_k10.wav",
+      "quantized_k20": "audio/P09/P09_ses1_t0056_quantized_k20.wav",
+      "decoded_k20": "audio/P09/P09_ses1_t0056_decoded_k20.wav",
+      "quantized_k50": "audio/P09/P09_ses1_t0056_quantized_k50.wav",
+      "decoded_k50": "audio/P09/P09_ses1_t0056_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5,
+      "20": 0.2692307692307692,
+      "50": 0.23076923076923078
+     }
+    }
+   ]
+  },
+  "P10": {
+   "tier": "Medium",
+   "template": -0.21465968586387435,
+   "dk": {
+    "10": {
+     "single": 0.10157068062827226,
+     "ensemble": 0.09424083769633508,
+     "top": 0.12041884816753932
+    },
+    "20": {
+     "single": 0.05896414342629482,
+     "ensemble": 0.0398406374501992,
+     "top": 0.06374501992031872
+    },
+    "50": {
+     "single": -0.01050583657587549,
+     "ensemble": -0.011673151750972763,
+     "top": -0.0038910505836575737
+    }
+   },
+   "samples": [
+    {
+     "trial_id": "P10_ses1_t0061",
+     "word": "drie",
+     "files": {
+      "original": "audio/P10/P10_ses1_t0061_original.wav",
+      "continuous": "audio/P10/P10_ses1_t0061_continuous.wav",
+      "quantized_k10": "audio/P10/P10_ses1_t0061_quantized_k10.wav",
+      "decoded_k10": "audio/P10/P10_ses1_t0061_decoded_k10.wav",
+      "quantized_k20": "audio/P10/P10_ses1_t0061_quantized_k20.wav",
+      "decoded_k20": "audio/P10/P10_ses1_t0061_decoded_k20.wav",
+      "quantized_k50": "audio/P10/P10_ses1_t0061_quantized_k50.wav",
+      "decoded_k50": "audio/P10/P10_ses1_t0061_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5384615384615384,
+      "20": 0.15384615384615385,
+      "50": 0.07692307692307693
+     }
+    },
+    {
+     "trial_id": "P10_ses1_t0029",
+     "word": "mijn",
+     "files": {
+      "original": "audio/P10/P10_ses1_t0029_original.wav",
+      "continuous": "audio/P10/P10_ses1_t0029_continuous.wav",
+      "quantized_k10": "audio/P10/P10_ses1_t0029_quantized_k10.wav",
+      "decoded_k10": "audio/P10/P10_ses1_t0029_decoded_k10.wav",
+      "quantized_k20": "audio/P10/P10_ses1_t0029_quantized_k20.wav",
+      "decoded_k20": "audio/P10/P10_ses1_t0029_decoded_k20.wav",
+      "quantized_k50": "audio/P10/P10_ses1_t0029_quantized_k50.wav",
+      "decoded_k50": "audio/P10/P10_ses1_t0029_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.5,
+      "20": 0.5,
+      "50": 0.1111111111111111
+     }
+    },
+    {
+     "trial_id": "P10_ses1_t0083",
+     "word": "geen",
+     "files": {
+      "original": "audio/P10/P10_ses1_t0083_original.wav",
+      "continuous": "audio/P10/P10_ses1_t0083_continuous.wav",
+      "quantized_k10": "audio/P10/P10_ses1_t0083_quantized_k10.wav",
+      "decoded_k10": "audio/P10/P10_ses1_t0083_decoded_k10.wav",
+      "quantized_k20": "audio/P10/P10_ses1_t0083_quantized_k20.wav",
+      "decoded_k20": "audio/P10/P10_ses1_t0083_decoded_k20.wav",
+      "quantized_k50": "audio/P10/P10_ses1_t0083_quantized_k50.wav",
+      "decoded_k50": "audio/P10/P10_ses1_t0083_decoded_k50.wav"
+     },
+     "acc": {
+      "10": 0.47619047619047616,
+      "20": 0.2857142857142857,
+      "50": 0.19047619047619047
+     }
+    }
+   ]
+  }
+ },
+ "title": "Mid-Depth Speech Representation Targets Maximize Invasive Brain-to-Speech Decoding",
+ "abstract": "Many brain-to-speech (BTS) synthesis systems rely heavily on intermediate speech representations. However, no prior work has studied how to best leverage these features within a consistent and unified setting. In this paper, we address this gap by conducting a comprehensive comparison of acoustic and semantic representations for sEEG-to-speech decoding, focusing on self-supervised learning (SSL) layer hierarchies. We perform experiments holding frame rate, vocabulary size, quantization, and decoder architecture consistent across a dataset of Dutch speech, finding that semantically informed representations provide superior decoding performance. In particular, HuBERT units and a HuBERT-distilled codec consistently outperform reconstruction-based codecs, spectral representations, and source\u2013filter features. We also perform systematic layer sweeps across five different SSL backbones, discovering that optimal decoding performance always comes from using mid-depth layer representations rather than extremely deep or shallow layers. Furthermore, neither parameter scaling nor target-language pretraining yields significant performance gains, and pooling multiple adjacent layers does not reliably outperform a well-chosen single layer. Token confusions show that decoding accuracy varies across phonetic classes. Waveform decoding fails for most participants, but the few recognizable words come mainly from high-\u03ba participants, and decodability tracks the number of speech-responsive contacts. This points to electrode coverage of speech-production cortex as the main bottleneck."
+}
